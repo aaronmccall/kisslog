@@ -1,6 +1,6 @@
 {
   "name": "kisslog",
-  "version": "1.0.1",
+  "version": "2.0.0",
   "description": "\"Super simple node/browser logger. Converts %o to %j in node.\"",
   "main": "index.js",
   "scripts": {
