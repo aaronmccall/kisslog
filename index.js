@@ -10,7 +10,7 @@ module.exports = function _kisslog(config) {
                 var arg;
                 var i = -1;
                 while ((arg = args[++i])) {
-                    if (typeof arg === 'string') logArgs[i] = arg.replace('%o', '%j');
+                    if (typeof arg === 'string') logArgs[i] = arg.replace(/%o/g, '%j');
                 }
             }
             console.log.apply(console, logArgs);
